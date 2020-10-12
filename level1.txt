@@ -1,0 +1,17 @@
+def Index_Num() -> int:
+   number = input("Enter a number") #a integer
+   thislist = [ ] 
+   x = True
+   while x = True:
+      listnum = input("Enter a number in the list")
+      thislist.append(listnum)
+      charac = input("Type Y to Continue adding numbers")
+        if charac != "Y":
+          x = False 
+    
+    for i in range(len(thislist))   
+        if number == thislist[i]:
+           return i 
+    return -1
+Index = Index_Num()
+print(Index)
