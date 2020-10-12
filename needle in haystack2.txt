@@ -1,8 +1,6 @@
 def Output_Index()  -> int:
    haystack = input("Enter a sentence") #a string
    needle = input("Enter a part of you want to search")
-           #English
-           #is
    x = needle in haystack
    if x = False:
       return -1
